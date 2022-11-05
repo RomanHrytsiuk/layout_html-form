@@ -1,1 +1,23 @@
-/* styles go here */
+.paragraph1 {
+  display: block;
+  margin: 10px 0;
+}
+
+.paragraph2 {
+  display: block;
+  margin: 10px 0;
+}
+
+.paragraph3 {
+  display: block;
+  margin: 10px 0;
+}
+
+.paragraph4 {
+  display: block;
+  margin: 10px 0;
+}
+
+.set {
+  margin: 20px 0;
+}
