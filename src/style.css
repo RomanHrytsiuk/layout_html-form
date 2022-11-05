@@ -4,18 +4,22 @@ body {
 
 .paragraph1 {
   display: block;
+  padding-bottom: 10px;
 }
 
 .paragraph2 {
   display: block;
+  padding-bottom: 10px;
 }
 
 .paragraph3 {
   display: block;
+  padding-bottom: 10px;
 }
 
 .paragraph4 {
   display: block;
+  padding-bottom: 10px;
 }
 
 .set {
