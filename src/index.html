@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+    <form 
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+      method="post"
+    >
 
       <fieldset class="set">
         <legend>Personal Information</legend>
@@ -19,29 +22,29 @@
         <label class="paragraph">
           Surname:
           <input 
-          type="text" 
-          autocomplete="off" 
-          name="surname"
+           type="text" 
+           autocomplete="off" 
+           name="surname"
           >
         </label>
 
         <label class="paragraph">
           Name:
           <input 
-          type="text" 
-          autocomplete="off" 
-          name="name"
+            type="text" 
+            autocomplete="off" 
+            name="name"
           >
         </label>
 
         <label class="paragraph">
           How old are You?
           <input 
-          type="number" 
-          name="age"
-          min="1"
-          max="100"
-          value="12"
+            type="number" 
+            name="age"
+            min="1"
+            max="100"
+            value="12"
           >
         </label>
 
@@ -62,18 +65,18 @@
         <label class="paragraph">
           E-mail:
           <input 
-          type="email" 
-          name="e-mail" 
-          placeholder="email@example.com"
+            type="email" 
+            name="e-mail" 
+            placeholder="email@example.com"
           >
         </label>
 
         <label class="paragraph">
           Passwort:
           <input 
-          type="password" 
-          name="pass"
-          required
+            type="password" 
+            name="pass"
+            required
           >
         </label>
       </fieldset>
@@ -81,18 +84,20 @@
       <fieldset class="set">
         <legend>An interesting fact about you</legend>
 
-        <label class="paragraph">
-          Do you love cats?
+        Do you love cats?
+        <label>
           <input type="radio" name="yes"> Yes
+        </label>
+        <label>
           <input type="radio" name="no"> No
         </label>
 
         <label class="paragraph">
           What is your favorite color?
           <input 
-          type="color" 
-          name="head" 
-          id="#F00"
+            type="color" 
+            name="head" 
+            id="#F00"
           >
         </label>
 
@@ -113,22 +118,22 @@
         <label class="paragraph">
           How do you rate our work?
           <input 
-          type="range"
-          value="0" 
-          name="work" 
+            type="range"
+            value="0" 
+            name="work" 
           >
         </label>
       </fieldset>
 
-      <fieldset class="set">
+      <fieldset class="conclusion">
         <legend>Additional Info</legend>
 
         <label class="paragraph">
           Comments:
           <textarea 
-          name="comments"
-          minlength="30"
-          maxlength="200"
+            name="comments"
+            minlength="30"
+            maxlength="200"
           >
           </textarea> 
         </label>
